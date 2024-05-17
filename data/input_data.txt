@@ -1,0 +1,19 @@
+
+% Patient 1: John Doe
+patient(john_doe, 45, male, 80, 175, normal, normal, no_family_history).
+symptom(john_doe, increased_thirst).
+symptom(john_doe, frequent_urination).
+symptom(john_doe, fatigue).
+symptom(john_doe, blurred_vision).
+diagnostic_test(john_doe, fasting_blood_sugar, 130).
+diagnostic_test(john_doe, hba1c_level, 6.8).
+
+% Patient 2: Mary Smith
+patient(mary_smith, 50, female, 70, 160, high, high, family_history).
+symptom(mary_smith, increased_thirst).
+symptom(mary_smith, frequent_urination).
+symptom(mary_smith, slow_healing_sores).
+diagnostic_test(mary_smith, fasting_blood_sugar, 140).
+diagnostic_test(mary_smith, hba1c_level, 7.5).
+
+% Additional patients and their data can be added here

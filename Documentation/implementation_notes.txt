@@ -1,0 +1,4 @@
+Implementation Notes:
+- The expert system is structured using Prolog predicates and rules.
+- Input data files should be formatted according to the provided examples.
+- Ensure to consult all knowledge base files before running the system.

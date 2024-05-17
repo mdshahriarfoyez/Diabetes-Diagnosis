@@ -1,0 +1,34 @@
+% Test Case 1: Patient with symptoms indicating diabetes
+Test Case 1:
+Input:
+patient(john_doe, 45, male, 80, 175, normal, normal, no_family_history).
+symptom(john_doe, increased_thirst).
+symptom(john_doe, frequent_urination).
+symptom(john_doe, fatigue).
+symptom(john_doe, blurred_vision).
+diagnostic_test(john_doe, fasting_blood_sugar, 130).
+Expected Output:
+Diabetes diagnosis: Positive
+
+% Test Case 2: Patient with risk factors and elevated diagnostic test results
+Test Case 2:
+Input:
+patient(mary_smith, 50, female, 70, 160, high, high, family_history).
+symptom(mary_smith, increased_thirst).
+symptom(mary_smith, frequent_urination).
+symptom(mary_smith, slow_healing_sores).
+diagnostic_test(mary_smith, fasting_blood_sugar, 140).
+diagnostic_test(mary_smith, hba1c_level, 7.5).
+Expected Output:
+Diabetes diagnosis: Positive
+
+% Test Case 3: Patient without symptoms or risk factors
+Test Case 3:
+Input:
+patient(jane_doe, 30, female, 60, 165, normal, normal, no_family_history).
+symptom(jane_doe, none).
+diagnostic_test(jane_doe, fasting_blood_sugar, 100).
+Expected Output:
+Diabetes diagnosis: Negative
+
+% Additional test cases can be added here

@@ -1,0 +1,6 @@
+User Guide:
+1. Ensure Prolog is installed on your system.
+2. Open the Prolog interpreter.
+3. Load the main expert system file using the consult predicate: consult('diabetes_expert_system.pl').
+4. Provide input data representing patient information, symptoms, and diagnostic test results.
+5. Execute the diagnosis predicate to get the diagnosis outcome.
